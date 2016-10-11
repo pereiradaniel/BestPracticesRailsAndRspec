@@ -55,10 +55,17 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
       # Install RSpec
       # => Add RSpec gem to Test and Development environments
         gem 'rspec-rails', '~> 3.4'
+      # Install Capybara
+      # => Add Capybara to Test and Development environments
+        gem 'capybara', '~> 2.5'
     end
 
   # TEST ENVIRONMENT
     group :test do
+      # Install Shoulda-Matchers
+      # => Add Should-Matchers gem to Test environment
       gem 'shoulda-matchers', '~> 3.0', require: false
+      # Install Databse Cleaner
+      # => Add Database Cleaner to Test environment
       gem 'database_cleaner', '~> 1.5'
     end

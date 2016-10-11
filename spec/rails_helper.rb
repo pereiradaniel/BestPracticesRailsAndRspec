@@ -6,6 +6,9 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 require 'spec_helper'
 require 'rspec/rails'
 
+# Require Capybara gem
+require 'capybara/rspec'
+
 # Shoulda-Matchers Configuration
 # => Require Shoulda=Matchers
 require 'shoulda/matchers'
