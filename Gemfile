@@ -68,4 +68,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
       # Install Databse Cleaner
       # => Add Database Cleaner to Test environment
       gem 'database_cleaner', '~> 1.5'
+      # Install Faker
+      # => Add Faker to Test environment
+      gem 'faker', '~> 1.6.1'
     end
