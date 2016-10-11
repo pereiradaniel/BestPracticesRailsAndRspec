@@ -1,4 +1,3 @@
-# Create Fixtures using Factory Girl and Faker
 FactoryGirl.define do
   factory :contact do
     full_name     { Faker::Name.name }
