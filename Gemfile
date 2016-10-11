@@ -58,17 +58,20 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
       # Install Capybara
       # => Add Capybara to Test and Development environments
         gem 'capybara', '~> 2.5'
+      # Install Factory Girl
+      # => Add Factory girl rails to Test and Development environements
+        gem 'factory_girl_rails', '~> 4.5.0'
     end
 
   # TEST ENVIRONMENT
     group :test do
       # Install Shoulda-Matchers
       # => Add Should-Matchers gem to Test environment
-      gem 'shoulda-matchers', '~> 3.0', require: false
+        gem 'shoulda-matchers', '~> 3.0', require: false
       # Install Databse Cleaner
       # => Add Database Cleaner to Test environment
-      gem 'database_cleaner', '~> 1.5'
+        gem 'database_cleaner', '~> 1.5'
       # Install Faker
       # => Add Faker to Test environment
-      gem 'faker', '~> 1.6.1'
+        gem 'faker', '~> 1.6.1'
     end
